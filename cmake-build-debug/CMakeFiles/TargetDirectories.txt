@@ -2,5 +2,6 @@
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/146-lru-cache.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/206-reverse-linked-list.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/21-merge-two-sorted-lists.dir
+/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/24-swap-nodes-in-pairs.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

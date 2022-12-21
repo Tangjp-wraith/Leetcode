@@ -67,6 +67,7 @@ all: CMakeFiles/leetcode.dir/all
 all: CMakeFiles/146-lru-cache.dir/all
 all: CMakeFiles/206-reverse-linked-list.dir/all
 all: CMakeFiles/21-merge-two-sorted-lists.dir/all
+all: CMakeFiles/24-swap-nodes-in-pairs.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +79,7 @@ clean: CMakeFiles/leetcode.dir/clean
 clean: CMakeFiles/146-lru-cache.dir/clean
 clean: CMakeFiles/206-reverse-linked-list.dir/clean
 clean: CMakeFiles/21-merge-two-sorted-lists.dir/clean
+clean: CMakeFiles/24-swap-nodes-in-pairs.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -87,7 +89,7 @@ clean: CMakeFiles/21-merge-two-sorted-lists.dir/clean
 CMakeFiles/leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=9,10,11 "Built target leetcode"
 .PHONY : CMakeFiles/leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,6 +185,32 @@ CMakeFiles/21-merge-two-sorted-lists.dir/rule: cmake_check_build_system
 CMakeFiles/21-merge-two-sorted-lists.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/clean
 .PHONY : CMakeFiles/21-merge-two-sorted-lists.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/24-swap-nodes-in-pairs.dir
+
+# All Build rule for target.
+CMakeFiles/24-swap-nodes-in-pairs.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24-swap-nodes-in-pairs.dir/build.make CMakeFiles/24-swap-nodes-in-pairs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24-swap-nodes-in-pairs.dir/build.make CMakeFiles/24-swap-nodes-in-pairs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 24-swap-nodes-in-pairs"
+.PHONY : CMakeFiles/24-swap-nodes-in-pairs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/24-swap-nodes-in-pairs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/24-swap-nodes-in-pairs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/24-swap-nodes-in-pairs.dir/rule
+
+# Convenience name for target.
+24-swap-nodes-in-pairs: CMakeFiles/24-swap-nodes-in-pairs.dir/rule
+.PHONY : 24-swap-nodes-in-pairs
+
+# clean rule for target.
+CMakeFiles/24-swap-nodes-in-pairs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24-swap-nodes-in-pairs.dir/build.make CMakeFiles/24-swap-nodes-in-pairs.dir/clean
+.PHONY : CMakeFiles/24-swap-nodes-in-pairs.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

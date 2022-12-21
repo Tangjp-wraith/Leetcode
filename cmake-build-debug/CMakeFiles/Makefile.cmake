@@ -53,4 +53,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/146-lru-cache.dir/DependInfo.cmake"
   "CMakeFiles/206-reverse-linked-list.dir/DependInfo.cmake"
   "CMakeFiles/21-merge-two-sorted-lists.dir/DependInfo.cmake"
+  "CMakeFiles/24-swap-nodes-in-pairs.dir/DependInfo.cmake"
   )

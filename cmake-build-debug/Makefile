@@ -168,6 +168,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/build
 .PHONY : 21-merge-two-sorted-lists/fast
 
+#=============================================================================
+# Target rules for targets named 24-swap-nodes-in-pairs
+
+# Build rule for target.
+24-swap-nodes-in-pairs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 24-swap-nodes-in-pairs
+.PHONY : 24-swap-nodes-in-pairs
+
+# fast build rule for target.
+24-swap-nodes-in-pairs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24-swap-nodes-in-pairs.dir/build.make CMakeFiles/24-swap-nodes-in-pairs.dir/build
+.PHONY : 24-swap-nodes-in-pairs/fast
+
 leetcode/editor/cn/146-lru-cache.o: leetcode/editor/cn/146-lru-cache.cpp.o
 .PHONY : leetcode/editor/cn/146-lru-cache.o
 
@@ -240,6 +253,30 @@ leetcode/editor/cn/21-merge-two-sorted-lists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/leetcode/editor/cn/21-merge-two-sorted-lists.cpp.s
 .PHONY : leetcode/editor/cn/21-merge-two-sorted-lists.cpp.s
 
+leetcode/editor/cn/24-swap-nodes-in-pairs.o: leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.o
+.PHONY : leetcode/editor/cn/24-swap-nodes-in-pairs.o
+
+# target to build an object file
+leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24-swap-nodes-in-pairs.dir/build.make CMakeFiles/24-swap-nodes-in-pairs.dir/leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.o
+.PHONY : leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.o
+
+leetcode/editor/cn/24-swap-nodes-in-pairs.i: leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.i
+.PHONY : leetcode/editor/cn/24-swap-nodes-in-pairs.i
+
+# target to preprocess a source file
+leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24-swap-nodes-in-pairs.dir/build.make CMakeFiles/24-swap-nodes-in-pairs.dir/leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.i
+.PHONY : leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.i
+
+leetcode/editor/cn/24-swap-nodes-in-pairs.s: leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.s
+.PHONY : leetcode/editor/cn/24-swap-nodes-in-pairs.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24-swap-nodes-in-pairs.dir/build.make CMakeFiles/24-swap-nodes-in-pairs.dir/leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.s
+.PHONY : leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.s
+
 leetcode/editor/cn/include/btree.o: leetcode/editor/cn/include/btree.cc.o
 .PHONY : leetcode/editor/cn/include/btree.o
 
@@ -299,6 +336,7 @@ help:
 	@echo "... 146-lru-cache"
 	@echo "... 206-reverse-linked-list"
 	@echo "... 21-merge-two-sorted-lists"
+	@echo "... 24-swap-nodes-in-pairs"
 	@echo "... leetcode"
 	@echo "... leetcode/editor/cn/146-lru-cache.o"
 	@echo "... leetcode/editor/cn/146-lru-cache.i"
@@ -309,6 +347,9 @@ help:
 	@echo "... leetcode/editor/cn/21-merge-two-sorted-lists.o"
 	@echo "... leetcode/editor/cn/21-merge-two-sorted-lists.i"
 	@echo "... leetcode/editor/cn/21-merge-two-sorted-lists.s"
+	@echo "... leetcode/editor/cn/24-swap-nodes-in-pairs.o"
+	@echo "... leetcode/editor/cn/24-swap-nodes-in-pairs.i"
+	@echo "... leetcode/editor/cn/24-swap-nodes-in-pairs.s"
 	@echo "... leetcode/editor/cn/include/btree.o"
 	@echo "... leetcode/editor/cn/include/btree.i"
 	@echo "... leetcode/editor/cn/include/btree.s"
