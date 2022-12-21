@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LeetCode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/libleetcode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode/fast">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/libleetcode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="146-lru-cache">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/146-lru-cache" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 146-lru-cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="146-lru-cache/fast">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/146-lru-cache" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 146-lru-cache/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="206-reverse-linked-list">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/206-reverse-linked-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 206-reverse-linked-list"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="206-reverse-linked-list/fast">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/206-reverse-linked-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 206-reverse-linked-list/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="21-merge-two-sorted-lists">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/21-merge-two-sorted-lists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 21-merge-two-sorted-lists"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="21-merge-two-sorted-lists/fast">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/21-merge-two-sorted-lists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 21-merge-two-sorted-lists/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/146-lru-cache.cpp">
+			<Option target="146-lru-cache"/>
+		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/206-reverse-linked-list.cpp">
+			<Option target="206-reverse-linked-list"/>
+		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/21-merge-two-sorted-lists.cpp">
+			<Option target="21-merge-two-sorted-lists"/>
+		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/include/btree.cc">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/include/btree.h">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/include/listnode.cc">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/include/listnode.h">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

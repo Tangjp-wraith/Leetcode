@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang/CSProjects/leetcode
+CMAKE_SOURCE_DIR = /home/tang/CSProjects/Leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang/CSProjects/leetcode/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tang/CSProjects/Leetcode/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/leetcode/cmake-build-debug/CMakeFiles /home/tang/CSProjects/leetcode/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles /home/tang/CSProjects/Leetcode/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/leetcode/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,176 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named leetcode
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode
+.PHONY : leetcode
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
+.PHONY : leetcode/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+#=============================================================================
+# Target rules for targets named 146-lru-cache
+
+# Build rule for target.
+146-lru-cache: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 146-lru-cache
+.PHONY : 146-lru-cache
+
+# fast build rule for target.
+146-lru-cache/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/146-lru-cache.dir/build.make CMakeFiles/146-lru-cache.dir/build
+.PHONY : 146-lru-cache/fast
+
+#=============================================================================
+# Target rules for targets named 206-reverse-linked-list
+
+# Build rule for target.
+206-reverse-linked-list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 206-reverse-linked-list
+.PHONY : 206-reverse-linked-list
+
+# fast build rule for target.
+206-reverse-linked-list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/206-reverse-linked-list.dir/build.make CMakeFiles/206-reverse-linked-list.dir/build
+.PHONY : 206-reverse-linked-list/fast
+
+#=============================================================================
+# Target rules for targets named 21-merge-two-sorted-lists
+
+# Build rule for target.
+21-merge-two-sorted-lists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-merge-two-sorted-lists
+.PHONY : 21-merge-two-sorted-lists
+
+# fast build rule for target.
+21-merge-two-sorted-lists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/build
+.PHONY : 21-merge-two-sorted-lists/fast
+
+leetcode/editor/cn/146-lru-cache.o: leetcode/editor/cn/146-lru-cache.cpp.o
+.PHONY : leetcode/editor/cn/146-lru-cache.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+leetcode/editor/cn/146-lru-cache.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/146-lru-cache.dir/build.make CMakeFiles/146-lru-cache.dir/leetcode/editor/cn/146-lru-cache.cpp.o
+.PHONY : leetcode/editor/cn/146-lru-cache.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+leetcode/editor/cn/146-lru-cache.i: leetcode/editor/cn/146-lru-cache.cpp.i
+.PHONY : leetcode/editor/cn/146-lru-cache.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+leetcode/editor/cn/146-lru-cache.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/146-lru-cache.dir/build.make CMakeFiles/146-lru-cache.dir/leetcode/editor/cn/146-lru-cache.cpp.i
+.PHONY : leetcode/editor/cn/146-lru-cache.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+leetcode/editor/cn/146-lru-cache.s: leetcode/editor/cn/146-lru-cache.cpp.s
+.PHONY : leetcode/editor/cn/146-lru-cache.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+leetcode/editor/cn/146-lru-cache.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/146-lru-cache.dir/build.make CMakeFiles/146-lru-cache.dir/leetcode/editor/cn/146-lru-cache.cpp.s
+.PHONY : leetcode/editor/cn/146-lru-cache.cpp.s
+
+leetcode/editor/cn/206-reverse-linked-list.o: leetcode/editor/cn/206-reverse-linked-list.cpp.o
+.PHONY : leetcode/editor/cn/206-reverse-linked-list.o
+
+# target to build an object file
+leetcode/editor/cn/206-reverse-linked-list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/206-reverse-linked-list.dir/build.make CMakeFiles/206-reverse-linked-list.dir/leetcode/editor/cn/206-reverse-linked-list.cpp.o
+.PHONY : leetcode/editor/cn/206-reverse-linked-list.cpp.o
+
+leetcode/editor/cn/206-reverse-linked-list.i: leetcode/editor/cn/206-reverse-linked-list.cpp.i
+.PHONY : leetcode/editor/cn/206-reverse-linked-list.i
+
+# target to preprocess a source file
+leetcode/editor/cn/206-reverse-linked-list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/206-reverse-linked-list.dir/build.make CMakeFiles/206-reverse-linked-list.dir/leetcode/editor/cn/206-reverse-linked-list.cpp.i
+.PHONY : leetcode/editor/cn/206-reverse-linked-list.cpp.i
+
+leetcode/editor/cn/206-reverse-linked-list.s: leetcode/editor/cn/206-reverse-linked-list.cpp.s
+.PHONY : leetcode/editor/cn/206-reverse-linked-list.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/206-reverse-linked-list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/206-reverse-linked-list.dir/build.make CMakeFiles/206-reverse-linked-list.dir/leetcode/editor/cn/206-reverse-linked-list.cpp.s
+.PHONY : leetcode/editor/cn/206-reverse-linked-list.cpp.s
+
+leetcode/editor/cn/21-merge-two-sorted-lists.o: leetcode/editor/cn/21-merge-two-sorted-lists.cpp.o
+.PHONY : leetcode/editor/cn/21-merge-two-sorted-lists.o
+
+# target to build an object file
+leetcode/editor/cn/21-merge-two-sorted-lists.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/leetcode/editor/cn/21-merge-two-sorted-lists.cpp.o
+.PHONY : leetcode/editor/cn/21-merge-two-sorted-lists.cpp.o
+
+leetcode/editor/cn/21-merge-two-sorted-lists.i: leetcode/editor/cn/21-merge-two-sorted-lists.cpp.i
+.PHONY : leetcode/editor/cn/21-merge-two-sorted-lists.i
+
+# target to preprocess a source file
+leetcode/editor/cn/21-merge-two-sorted-lists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/leetcode/editor/cn/21-merge-two-sorted-lists.cpp.i
+.PHONY : leetcode/editor/cn/21-merge-two-sorted-lists.cpp.i
+
+leetcode/editor/cn/21-merge-two-sorted-lists.s: leetcode/editor/cn/21-merge-two-sorted-lists.cpp.s
+.PHONY : leetcode/editor/cn/21-merge-two-sorted-lists.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/21-merge-two-sorted-lists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/leetcode/editor/cn/21-merge-two-sorted-lists.cpp.s
+.PHONY : leetcode/editor/cn/21-merge-two-sorted-lists.cpp.s
+
+leetcode/editor/cn/include/btree.o: leetcode/editor/cn/include/btree.cc.o
+.PHONY : leetcode/editor/cn/include/btree.o
+
+# target to build an object file
+leetcode/editor/cn/include/btree.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/leetcode/editor/cn/include/btree.cc.o
+.PHONY : leetcode/editor/cn/include/btree.cc.o
+
+leetcode/editor/cn/include/btree.i: leetcode/editor/cn/include/btree.cc.i
+.PHONY : leetcode/editor/cn/include/btree.i
+
+# target to preprocess a source file
+leetcode/editor/cn/include/btree.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/leetcode/editor/cn/include/btree.cc.i
+.PHONY : leetcode/editor/cn/include/btree.cc.i
+
+leetcode/editor/cn/include/btree.s: leetcode/editor/cn/include/btree.cc.s
+.PHONY : leetcode/editor/cn/include/btree.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/include/btree.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/leetcode/editor/cn/include/btree.cc.s
+.PHONY : leetcode/editor/cn/include/btree.cc.s
+
+leetcode/editor/cn/include/listnode.o: leetcode/editor/cn/include/listnode.cc.o
+.PHONY : leetcode/editor/cn/include/listnode.o
+
+# target to build an object file
+leetcode/editor/cn/include/listnode.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/leetcode/editor/cn/include/listnode.cc.o
+.PHONY : leetcode/editor/cn/include/listnode.cc.o
+
+leetcode/editor/cn/include/listnode.i: leetcode/editor/cn/include/listnode.cc.i
+.PHONY : leetcode/editor/cn/include/listnode.i
+
+# target to preprocess a source file
+leetcode/editor/cn/include/listnode.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/leetcode/editor/cn/include/listnode.cc.i
+.PHONY : leetcode/editor/cn/include/listnode.cc.i
+
+leetcode/editor/cn/include/listnode.s: leetcode/editor/cn/include/listnode.cc.s
+.PHONY : leetcode/editor/cn/include/listnode.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/include/listnode.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/leetcode/editor/cn/include/listnode.cc.s
+.PHONY : leetcode/editor/cn/include/listnode.cc.s
 
 # Help Target
 help:
@@ -161,10 +296,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... 146-lru-cache"
+	@echo "... 206-reverse-linked-list"
+	@echo "... 21-merge-two-sorted-lists"
+	@echo "... leetcode"
+	@echo "... leetcode/editor/cn/146-lru-cache.o"
+	@echo "... leetcode/editor/cn/146-lru-cache.i"
+	@echo "... leetcode/editor/cn/146-lru-cache.s"
+	@echo "... leetcode/editor/cn/206-reverse-linked-list.o"
+	@echo "... leetcode/editor/cn/206-reverse-linked-list.i"
+	@echo "... leetcode/editor/cn/206-reverse-linked-list.s"
+	@echo "... leetcode/editor/cn/21-merge-two-sorted-lists.o"
+	@echo "... leetcode/editor/cn/21-merge-two-sorted-lists.i"
+	@echo "... leetcode/editor/cn/21-merge-two-sorted-lists.s"
+	@echo "... leetcode/editor/cn/include/btree.o"
+	@echo "... leetcode/editor/cn/include/btree.i"
+	@echo "... leetcode/editor/cn/include/btree.s"
+	@echo "... leetcode/editor/cn/include/listnode.o"
+	@echo "... leetcode/editor/cn/include/listnode.i"
+	@echo "... leetcode/editor/cn/include/listnode.s"
 .PHONY : help
 
 

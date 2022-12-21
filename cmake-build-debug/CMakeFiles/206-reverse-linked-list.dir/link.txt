@@ -1,0 +1,1 @@
+/usr/bin/clang++-12 -g CMakeFiles/206-reverse-linked-list.dir/leetcode/editor/cn/206-reverse-linked-list.cpp.o -o 206-reverse-linked-list  libleetcode.a 

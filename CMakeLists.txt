@@ -1,10 +1,15 @@
-cmake_minimum_required(VERSION 3.13)
-project(Leetcode)
+cmake_minimum_required(VERSION 3.9)
+project(LeetCode)
+set(CMAKE_CXX_STANDARD 11)
 
-set(CMAKE_CXX_STANDARD 14)
+#链接库
+aux_source_directory(leetcode/editor/cn/include LEETCODE)
+add_library(leetcode ${LEETCODE})
+LINK_LIBRARIES(leetcode)
 
-include_directories(Solutions/)
 
-add_executable(main
-        src/main.cpp
-        )
+
+
+add_executable(146-lru-cache leetcode/editor/cn/146-lru-cache.cpp)
+add_executable(206-reverse-linked-list leetcode/editor/cn/206-reverse-linked-list.cpp)
+add_executable(21-merge-two-sorted-lists leetcode/editor/cn/21-merge-two-sorted-lists.cpp)

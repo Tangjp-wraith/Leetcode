@@ -49,5 +49,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/leetcode.dir/DependInfo.cmake"
+  "CMakeFiles/146-lru-cache.dir/DependInfo.cmake"
+  "CMakeFiles/206-reverse-linked-list.dir/DependInfo.cmake"
+  "CMakeFiles/21-merge-two-sorted-lists.dir/DependInfo.cmake"
   )

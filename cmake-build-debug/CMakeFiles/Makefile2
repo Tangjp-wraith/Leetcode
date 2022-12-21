@@ -54,16 +54,19 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang/CSProjects/leetcode
+CMAKE_SOURCE_DIR = /home/tang/CSProjects/Leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang/CSProjects/leetcode/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tang/CSProjects/Leetcode/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/leetcode.dir/all
+all: CMakeFiles/146-lru-cache.dir/all
+all: CMakeFiles/206-reverse-linked-list.dir/all
+all: CMakeFiles/21-merge-two-sorted-lists.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +74,115 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/leetcode.dir/clean
+clean: CMakeFiles/146-lru-cache.dir/clean
+clean: CMakeFiles/206-reverse-linked-list.dir/clean
+clean: CMakeFiles/21-merge-two-sorted-lists.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/leetcode.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/leetcode.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target leetcode"
+.PHONY : CMakeFiles/leetcode.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/leetcode/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/leetcode/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+CMakeFiles/leetcode.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/leetcode.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/leetcode.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+leetcode: CMakeFiles/leetcode.dir/rule
+.PHONY : leetcode
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/leetcode.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/clean
+.PHONY : CMakeFiles/leetcode.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/146-lru-cache.dir
+
+# All Build rule for target.
+CMakeFiles/146-lru-cache.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/146-lru-cache.dir/build.make CMakeFiles/146-lru-cache.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/146-lru-cache.dir/build.make CMakeFiles/146-lru-cache.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 146-lru-cache"
+.PHONY : CMakeFiles/146-lru-cache.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/146-lru-cache.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/146-lru-cache.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/146-lru-cache.dir/rule
+
+# Convenience name for target.
+146-lru-cache: CMakeFiles/146-lru-cache.dir/rule
+.PHONY : 146-lru-cache
+
+# clean rule for target.
+CMakeFiles/146-lru-cache.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/146-lru-cache.dir/build.make CMakeFiles/146-lru-cache.dir/clean
+.PHONY : CMakeFiles/146-lru-cache.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/206-reverse-linked-list.dir
+
+# All Build rule for target.
+CMakeFiles/206-reverse-linked-list.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/206-reverse-linked-list.dir/build.make CMakeFiles/206-reverse-linked-list.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/206-reverse-linked-list.dir/build.make CMakeFiles/206-reverse-linked-list.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 206-reverse-linked-list"
+.PHONY : CMakeFiles/206-reverse-linked-list.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/206-reverse-linked-list.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/206-reverse-linked-list.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/206-reverse-linked-list.dir/rule
+
+# Convenience name for target.
+206-reverse-linked-list: CMakeFiles/206-reverse-linked-list.dir/rule
+.PHONY : 206-reverse-linked-list
+
+# clean rule for target.
+CMakeFiles/206-reverse-linked-list.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/206-reverse-linked-list.dir/build.make CMakeFiles/206-reverse-linked-list.dir/clean
+.PHONY : CMakeFiles/206-reverse-linked-list.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/21-merge-two-sorted-lists.dir
+
+# All Build rule for target.
+CMakeFiles/21-merge-two-sorted-lists.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 21-merge-two-sorted-lists"
+.PHONY : CMakeFiles/21-merge-two-sorted-lists.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/21-merge-two-sorted-lists.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21-merge-two-sorted-lists.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/21-merge-two-sorted-lists.dir/rule
+
+# Convenience name for target.
+21-merge-two-sorted-lists: CMakeFiles/21-merge-two-sorted-lists.dir/rule
+.PHONY : 21-merge-two-sorted-lists
+
+# clean rule for target.
+CMakeFiles/21-merge-two-sorted-lists.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/clean
+.PHONY : CMakeFiles/21-merge-two-sorted-lists.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
