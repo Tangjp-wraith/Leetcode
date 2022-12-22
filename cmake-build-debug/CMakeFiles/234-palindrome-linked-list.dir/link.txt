@@ -1,0 +1,1 @@
+/usr/bin/clang++-12 -g CMakeFiles/234-palindrome-linked-list.dir/leetcode/editor/cn/234-palindrome-linked-list.cpp.o -o 234-palindrome-linked-list  libleetcode.a 
