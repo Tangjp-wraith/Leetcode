@@ -181,6 +181,58 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24-swap-nodes-in-pairs.dir/build.make CMakeFiles/24-swap-nodes-in-pairs.dir/build
 .PHONY : 24-swap-nodes-in-pairs/fast
 
+#=============================================================================
+# Target rules for targets named 160-intersection-of-two-linked-lists
+
+# Build rule for target.
+160-intersection-of-two-linked-lists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 160-intersection-of-two-linked-lists
+.PHONY : 160-intersection-of-two-linked-lists
+
+# fast build rule for target.
+160-intersection-of-two-linked-lists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/160-intersection-of-two-linked-lists.dir/build.make CMakeFiles/160-intersection-of-two-linked-lists.dir/build
+.PHONY : 160-intersection-of-two-linked-lists/fast
+
+#=============================================================================
+# Target rules for targets named 234-palindrome-linked-list
+
+# Build rule for target.
+234-palindrome-linked-list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 234-palindrome-linked-list
+.PHONY : 234-palindrome-linked-list
+
+# fast build rule for target.
+234-palindrome-linked-list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/234-palindrome-linked-list.dir/build.make CMakeFiles/234-palindrome-linked-list.dir/build
+.PHONY : 234-palindrome-linked-list/fast
+
+#=============================================================================
+# Target rules for targets named Offer-09
+
+# Build rule for target.
+Offer-09: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Offer-09
+.PHONY : Offer-09
+
+# fast build rule for target.
+Offer-09/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-09.dir/build.make CMakeFiles/Offer-09.dir/build
+.PHONY : Offer-09/fast
+
+#=============================================================================
+# Target rules for targets named Offer-30
+
+# Build rule for target.
+Offer-30: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Offer-30
+.PHONY : Offer-30
+
+# fast build rule for target.
+Offer-30/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-30.dir/build.make CMakeFiles/Offer-30.dir/build
+.PHONY : Offer-30/fast
+
 leetcode/editor/cn/146-lru-cache.o: leetcode/editor/cn/146-lru-cache.cpp.o
 .PHONY : leetcode/editor/cn/146-lru-cache.o
 
@@ -204,6 +256,30 @@ leetcode/editor/cn/146-lru-cache.s: leetcode/editor/cn/146-lru-cache.cpp.s
 leetcode/editor/cn/146-lru-cache.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/146-lru-cache.dir/build.make CMakeFiles/146-lru-cache.dir/leetcode/editor/cn/146-lru-cache.cpp.s
 .PHONY : leetcode/editor/cn/146-lru-cache.cpp.s
+
+leetcode/editor/cn/160-intersection-of-two-linked-lists.o: leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.o
+.PHONY : leetcode/editor/cn/160-intersection-of-two-linked-lists.o
+
+# target to build an object file
+leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/160-intersection-of-two-linked-lists.dir/build.make CMakeFiles/160-intersection-of-two-linked-lists.dir/leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.o
+.PHONY : leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.o
+
+leetcode/editor/cn/160-intersection-of-two-linked-lists.i: leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.i
+.PHONY : leetcode/editor/cn/160-intersection-of-two-linked-lists.i
+
+# target to preprocess a source file
+leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/160-intersection-of-two-linked-lists.dir/build.make CMakeFiles/160-intersection-of-two-linked-lists.dir/leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.i
+.PHONY : leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.i
+
+leetcode/editor/cn/160-intersection-of-two-linked-lists.s: leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.s
+.PHONY : leetcode/editor/cn/160-intersection-of-two-linked-lists.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/160-intersection-of-two-linked-lists.dir/build.make CMakeFiles/160-intersection-of-two-linked-lists.dir/leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.s
+.PHONY : leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.s
 
 leetcode/editor/cn/206-reverse-linked-list.o: leetcode/editor/cn/206-reverse-linked-list.cpp.o
 .PHONY : leetcode/editor/cn/206-reverse-linked-list.o
@@ -253,6 +329,30 @@ leetcode/editor/cn/21-merge-two-sorted-lists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-merge-two-sorted-lists.dir/build.make CMakeFiles/21-merge-two-sorted-lists.dir/leetcode/editor/cn/21-merge-two-sorted-lists.cpp.s
 .PHONY : leetcode/editor/cn/21-merge-two-sorted-lists.cpp.s
 
+leetcode/editor/cn/234-palindrome-linked-list.o: leetcode/editor/cn/234-palindrome-linked-list.cpp.o
+.PHONY : leetcode/editor/cn/234-palindrome-linked-list.o
+
+# target to build an object file
+leetcode/editor/cn/234-palindrome-linked-list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/234-palindrome-linked-list.dir/build.make CMakeFiles/234-palindrome-linked-list.dir/leetcode/editor/cn/234-palindrome-linked-list.cpp.o
+.PHONY : leetcode/editor/cn/234-palindrome-linked-list.cpp.o
+
+leetcode/editor/cn/234-palindrome-linked-list.i: leetcode/editor/cn/234-palindrome-linked-list.cpp.i
+.PHONY : leetcode/editor/cn/234-palindrome-linked-list.i
+
+# target to preprocess a source file
+leetcode/editor/cn/234-palindrome-linked-list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/234-palindrome-linked-list.dir/build.make CMakeFiles/234-palindrome-linked-list.dir/leetcode/editor/cn/234-palindrome-linked-list.cpp.i
+.PHONY : leetcode/editor/cn/234-palindrome-linked-list.cpp.i
+
+leetcode/editor/cn/234-palindrome-linked-list.s: leetcode/editor/cn/234-palindrome-linked-list.cpp.s
+.PHONY : leetcode/editor/cn/234-palindrome-linked-list.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/234-palindrome-linked-list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/234-palindrome-linked-list.dir/build.make CMakeFiles/234-palindrome-linked-list.dir/leetcode/editor/cn/234-palindrome-linked-list.cpp.s
+.PHONY : leetcode/editor/cn/234-palindrome-linked-list.cpp.s
+
 leetcode/editor/cn/24-swap-nodes-in-pairs.o: leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.o
 .PHONY : leetcode/editor/cn/24-swap-nodes-in-pairs.o
 
@@ -276,6 +376,54 @@ leetcode/editor/cn/24-swap-nodes-in-pairs.s: leetcode/editor/cn/24-swap-nodes-in
 leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24-swap-nodes-in-pairs.dir/build.make CMakeFiles/24-swap-nodes-in-pairs.dir/leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.s
 .PHONY : leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.s
+
+leetcode/editor/cn/Offer-09.o: leetcode/editor/cn/Offer-09.cpp.o
+.PHONY : leetcode/editor/cn/Offer-09.o
+
+# target to build an object file
+leetcode/editor/cn/Offer-09.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-09.dir/build.make CMakeFiles/Offer-09.dir/leetcode/editor/cn/Offer-09.cpp.o
+.PHONY : leetcode/editor/cn/Offer-09.cpp.o
+
+leetcode/editor/cn/Offer-09.i: leetcode/editor/cn/Offer-09.cpp.i
+.PHONY : leetcode/editor/cn/Offer-09.i
+
+# target to preprocess a source file
+leetcode/editor/cn/Offer-09.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-09.dir/build.make CMakeFiles/Offer-09.dir/leetcode/editor/cn/Offer-09.cpp.i
+.PHONY : leetcode/editor/cn/Offer-09.cpp.i
+
+leetcode/editor/cn/Offer-09.s: leetcode/editor/cn/Offer-09.cpp.s
+.PHONY : leetcode/editor/cn/Offer-09.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/Offer-09.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-09.dir/build.make CMakeFiles/Offer-09.dir/leetcode/editor/cn/Offer-09.cpp.s
+.PHONY : leetcode/editor/cn/Offer-09.cpp.s
+
+leetcode/editor/cn/Offer-30.o: leetcode/editor/cn/Offer-30.cpp.o
+.PHONY : leetcode/editor/cn/Offer-30.o
+
+# target to build an object file
+leetcode/editor/cn/Offer-30.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-30.dir/build.make CMakeFiles/Offer-30.dir/leetcode/editor/cn/Offer-30.cpp.o
+.PHONY : leetcode/editor/cn/Offer-30.cpp.o
+
+leetcode/editor/cn/Offer-30.i: leetcode/editor/cn/Offer-30.cpp.i
+.PHONY : leetcode/editor/cn/Offer-30.i
+
+# target to preprocess a source file
+leetcode/editor/cn/Offer-30.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-30.dir/build.make CMakeFiles/Offer-30.dir/leetcode/editor/cn/Offer-30.cpp.i
+.PHONY : leetcode/editor/cn/Offer-30.cpp.i
+
+leetcode/editor/cn/Offer-30.s: leetcode/editor/cn/Offer-30.cpp.s
+.PHONY : leetcode/editor/cn/Offer-30.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/Offer-30.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-30.dir/build.make CMakeFiles/Offer-30.dir/leetcode/editor/cn/Offer-30.cpp.s
+.PHONY : leetcode/editor/cn/Offer-30.cpp.s
 
 leetcode/editor/cn/include/btree.o: leetcode/editor/cn/include/btree.cc.o
 .PHONY : leetcode/editor/cn/include/btree.o
@@ -334,22 +482,38 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 146-lru-cache"
+	@echo "... 160-intersection-of-two-linked-lists"
 	@echo "... 206-reverse-linked-list"
 	@echo "... 21-merge-two-sorted-lists"
+	@echo "... 234-palindrome-linked-list"
 	@echo "... 24-swap-nodes-in-pairs"
+	@echo "... Offer-09"
+	@echo "... Offer-30"
 	@echo "... leetcode"
 	@echo "... leetcode/editor/cn/146-lru-cache.o"
 	@echo "... leetcode/editor/cn/146-lru-cache.i"
 	@echo "... leetcode/editor/cn/146-lru-cache.s"
+	@echo "... leetcode/editor/cn/160-intersection-of-two-linked-lists.o"
+	@echo "... leetcode/editor/cn/160-intersection-of-two-linked-lists.i"
+	@echo "... leetcode/editor/cn/160-intersection-of-two-linked-lists.s"
 	@echo "... leetcode/editor/cn/206-reverse-linked-list.o"
 	@echo "... leetcode/editor/cn/206-reverse-linked-list.i"
 	@echo "... leetcode/editor/cn/206-reverse-linked-list.s"
 	@echo "... leetcode/editor/cn/21-merge-two-sorted-lists.o"
 	@echo "... leetcode/editor/cn/21-merge-two-sorted-lists.i"
 	@echo "... leetcode/editor/cn/21-merge-two-sorted-lists.s"
+	@echo "... leetcode/editor/cn/234-palindrome-linked-list.o"
+	@echo "... leetcode/editor/cn/234-palindrome-linked-list.i"
+	@echo "... leetcode/editor/cn/234-palindrome-linked-list.s"
 	@echo "... leetcode/editor/cn/24-swap-nodes-in-pairs.o"
 	@echo "... leetcode/editor/cn/24-swap-nodes-in-pairs.i"
 	@echo "... leetcode/editor/cn/24-swap-nodes-in-pairs.s"
+	@echo "... leetcode/editor/cn/Offer-09.o"
+	@echo "... leetcode/editor/cn/Offer-09.i"
+	@echo "... leetcode/editor/cn/Offer-09.s"
+	@echo "... leetcode/editor/cn/Offer-30.o"
+	@echo "... leetcode/editor/cn/Offer-30.i"
+	@echo "... leetcode/editor/cn/Offer-30.s"
 	@echo "... leetcode/editor/cn/include/btree.o"
 	@echo "... leetcode/editor/cn/include/btree.i"
 	@echo "... leetcode/editor/cn/include/btree.s"

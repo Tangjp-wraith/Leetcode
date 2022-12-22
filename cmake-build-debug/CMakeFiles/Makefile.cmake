@@ -54,4 +54,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/206-reverse-linked-list.dir/DependInfo.cmake"
   "CMakeFiles/21-merge-two-sorted-lists.dir/DependInfo.cmake"
   "CMakeFiles/24-swap-nodes-in-pairs.dir/DependInfo.cmake"
+  "CMakeFiles/160-intersection-of-two-linked-lists.dir/DependInfo.cmake"
+  "CMakeFiles/234-palindrome-linked-list.dir/DependInfo.cmake"
+  "CMakeFiles/Offer-09.dir/DependInfo.cmake"
+  "CMakeFiles/Offer-30.dir/DependInfo.cmake"
   )
