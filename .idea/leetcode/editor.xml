@@ -75,6 +75,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 06-cong-wei-dao-tou-da-yin-lian-biao-lcof.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 06" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 06-cong-wei-dao-tou-da-yin-lian-biao-lcof.cpp" />
+              <option name="titleSlug" value="cong-wei-dao-tou-da-yin-lian-biao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 09-yong-liang-ge-zhan-shi-xian-dui-lie-lcof.cpp">
           <value>
             <LeetcodeEditor>
@@ -85,6 +95,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 24-fan-zhuan-lian-biao-lcof.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 24" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 24-fan-zhuan-lian-biao-lcof.cpp" />
+              <option name="titleSlug" value="fan-zhuan-lian-biao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 30-bao-han-minhan-shu-de-zhan-lcof.cpp">
           <value>
             <LeetcodeEditor>
@@ -92,6 +112,16 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 30-bao-han-minhan-shu-de-zhan-lcof.cpp" />
               <option name="titleSlug" value="bao-han-minhan-shu-de-zhan-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 35-fu-za-lian-biao-de-fu-zhi-lcof.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 35" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 35-fu-za-lian-biao-de-fu-zhi-lcof.cpp" />
+              <option name="titleSlug" value="fu-za-lian-biao-de-fu-zhi-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>

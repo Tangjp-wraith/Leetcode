@@ -7,5 +7,8 @@
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/234-palindrome-linked-list.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-09.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-30.dir
+/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-06.dir
+/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-24.dir
+/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-35.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

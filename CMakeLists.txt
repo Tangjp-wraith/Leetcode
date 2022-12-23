@@ -18,3 +18,6 @@ add_executable(160-intersection-of-two-linked-lists leetcode/editor/cn/160-inter
 add_executable(234-palindrome-linked-list leetcode/editor/cn/234-palindrome-linked-list.cpp)
 add_executable(Offer-09 leetcode/editor/cn/Offer-09.cpp)
 add_executable(Offer-30 leetcode/editor/cn/Offer-30.cpp)
+add_executable(Offer-06 leetcode/editor/cn/Offer-06.cpp)
+add_executable(Offer-24 leetcode/editor/cn/Offer-24.cpp)
+add_executable(Offer-35 leetcode/editor/cn/Offer-35.cpp)
