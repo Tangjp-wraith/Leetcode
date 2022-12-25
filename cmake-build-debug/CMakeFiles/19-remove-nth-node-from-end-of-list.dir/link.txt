@@ -1,0 +1,1 @@
+/usr/bin/clang++-12 -g CMakeFiles/19-remove-nth-node-from-end-of-list.dir/leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.o -o 19-remove-nth-node-from-end-of-list  libleetcode.a 

@@ -15,5 +15,7 @@
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-53-II.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-53-I.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-03.dir
+/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/19-remove-nth-node-from-end-of-list.dir
+/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/83-remove-duplicates-from-sorted-list.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

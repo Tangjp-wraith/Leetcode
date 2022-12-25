@@ -337,6 +337,32 @@ Offer-03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-03.dir/build.make CMakeFiles/Offer-03.dir/build
 .PHONY : Offer-03/fast
 
+#=============================================================================
+# Target rules for targets named 19-remove-nth-node-from-end-of-list
+
+# Build rule for target.
+19-remove-nth-node-from-end-of-list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 19-remove-nth-node-from-end-of-list
+.PHONY : 19-remove-nth-node-from-end-of-list
+
+# fast build rule for target.
+19-remove-nth-node-from-end-of-list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19-remove-nth-node-from-end-of-list.dir/build.make CMakeFiles/19-remove-nth-node-from-end-of-list.dir/build
+.PHONY : 19-remove-nth-node-from-end-of-list/fast
+
+#=============================================================================
+# Target rules for targets named 83-remove-duplicates-from-sorted-list
+
+# Build rule for target.
+83-remove-duplicates-from-sorted-list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 83-remove-duplicates-from-sorted-list
+.PHONY : 83-remove-duplicates-from-sorted-list
+
+# fast build rule for target.
+83-remove-duplicates-from-sorted-list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/83-remove-duplicates-from-sorted-list.dir/build.make CMakeFiles/83-remove-duplicates-from-sorted-list.dir/build
+.PHONY : 83-remove-duplicates-from-sorted-list/fast
+
 leetcode/editor/cn/146-lru-cache.o: leetcode/editor/cn/146-lru-cache.cpp.o
 .PHONY : leetcode/editor/cn/146-lru-cache.o
 
@@ -384,6 +410,30 @@ leetcode/editor/cn/160-intersection-of-two-linked-lists.s: leetcode/editor/cn/16
 leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/160-intersection-of-two-linked-lists.dir/build.make CMakeFiles/160-intersection-of-two-linked-lists.dir/leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.s
 .PHONY : leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.s
+
+leetcode/editor/cn/19-remove-nth-node-from-end-of-list.o: leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.o
+.PHONY : leetcode/editor/cn/19-remove-nth-node-from-end-of-list.o
+
+# target to build an object file
+leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19-remove-nth-node-from-end-of-list.dir/build.make CMakeFiles/19-remove-nth-node-from-end-of-list.dir/leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.o
+.PHONY : leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.o
+
+leetcode/editor/cn/19-remove-nth-node-from-end-of-list.i: leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.i
+.PHONY : leetcode/editor/cn/19-remove-nth-node-from-end-of-list.i
+
+# target to preprocess a source file
+leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19-remove-nth-node-from-end-of-list.dir/build.make CMakeFiles/19-remove-nth-node-from-end-of-list.dir/leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.i
+.PHONY : leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.i
+
+leetcode/editor/cn/19-remove-nth-node-from-end-of-list.s: leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.s
+.PHONY : leetcode/editor/cn/19-remove-nth-node-from-end-of-list.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19-remove-nth-node-from-end-of-list.dir/build.make CMakeFiles/19-remove-nth-node-from-end-of-list.dir/leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.s
+.PHONY : leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp.s
 
 leetcode/editor/cn/206-reverse-linked-list.o: leetcode/editor/cn/206-reverse-linked-list.cpp.o
 .PHONY : leetcode/editor/cn/206-reverse-linked-list.o
@@ -480,6 +530,30 @@ leetcode/editor/cn/24-swap-nodes-in-pairs.s: leetcode/editor/cn/24-swap-nodes-in
 leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24-swap-nodes-in-pairs.dir/build.make CMakeFiles/24-swap-nodes-in-pairs.dir/leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.s
 .PHONY : leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.s
+
+leetcode/editor/cn/83-remove-duplicates-from-sorted-list.o: leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.o
+.PHONY : leetcode/editor/cn/83-remove-duplicates-from-sorted-list.o
+
+# target to build an object file
+leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/83-remove-duplicates-from-sorted-list.dir/build.make CMakeFiles/83-remove-duplicates-from-sorted-list.dir/leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.o
+.PHONY : leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.o
+
+leetcode/editor/cn/83-remove-duplicates-from-sorted-list.i: leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.i
+.PHONY : leetcode/editor/cn/83-remove-duplicates-from-sorted-list.i
+
+# target to preprocess a source file
+leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/83-remove-duplicates-from-sorted-list.dir/build.make CMakeFiles/83-remove-duplicates-from-sorted-list.dir/leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.i
+.PHONY : leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.i
+
+leetcode/editor/cn/83-remove-duplicates-from-sorted-list.s: leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.s
+.PHONY : leetcode/editor/cn/83-remove-duplicates-from-sorted-list.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/83-remove-duplicates-from-sorted-list.dir/build.make CMakeFiles/83-remove-duplicates-from-sorted-list.dir/leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.s
+.PHONY : leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp.s
 
 leetcode/editor/cn/Offer-03.o: leetcode/editor/cn/Offer-03.cpp.o
 .PHONY : leetcode/editor/cn/Offer-03.o
@@ -779,10 +853,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 146-lru-cache"
 	@echo "... 160-intersection-of-two-linked-lists"
+	@echo "... 19-remove-nth-node-from-end-of-list"
 	@echo "... 206-reverse-linked-list"
 	@echo "... 21-merge-two-sorted-lists"
 	@echo "... 234-palindrome-linked-list"
 	@echo "... 24-swap-nodes-in-pairs"
+	@echo "... 83-remove-duplicates-from-sorted-list"
 	@echo "... Offer-03"
 	@echo "... Offer-05"
 	@echo "... Offer-06"
@@ -800,6 +876,9 @@ help:
 	@echo "... leetcode/editor/cn/160-intersection-of-two-linked-lists.o"
 	@echo "... leetcode/editor/cn/160-intersection-of-two-linked-lists.i"
 	@echo "... leetcode/editor/cn/160-intersection-of-two-linked-lists.s"
+	@echo "... leetcode/editor/cn/19-remove-nth-node-from-end-of-list.o"
+	@echo "... leetcode/editor/cn/19-remove-nth-node-from-end-of-list.i"
+	@echo "... leetcode/editor/cn/19-remove-nth-node-from-end-of-list.s"
 	@echo "... leetcode/editor/cn/206-reverse-linked-list.o"
 	@echo "... leetcode/editor/cn/206-reverse-linked-list.i"
 	@echo "... leetcode/editor/cn/206-reverse-linked-list.s"
@@ -812,6 +891,9 @@ help:
 	@echo "... leetcode/editor/cn/24-swap-nodes-in-pairs.o"
 	@echo "... leetcode/editor/cn/24-swap-nodes-in-pairs.i"
 	@echo "... leetcode/editor/cn/24-swap-nodes-in-pairs.s"
+	@echo "... leetcode/editor/cn/83-remove-duplicates-from-sorted-list.o"
+	@echo "... leetcode/editor/cn/83-remove-duplicates-from-sorted-list.i"
+	@echo "... leetcode/editor/cn/83-remove-duplicates-from-sorted-list.s"
 	@echo "... leetcode/editor/cn/Offer-03.o"
 	@echo "... leetcode/editor/cn/Offer-03.i"
 	@echo "... leetcode/editor/cn/Offer-03.s"

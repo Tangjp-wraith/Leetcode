@@ -765,6 +765,94 @@
 					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="19-remove-nth-node-from-end-of-list">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/19-remove-nth-node-from-end-of-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 19-remove-nth-node-from-end-of-list"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="19-remove-nth-node-from-end-of-list/fast">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/19-remove-nth-node-from-end-of-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 19-remove-nth-node-from-end-of-list/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="83-remove-duplicates-from-sorted-list">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/83-remove-duplicates-from-sorted-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 83-remove-duplicates-from-sorted-list"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="83-remove-duplicates-from-sorted-list/fast">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/83-remove-duplicates-from-sorted-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 83-remove-duplicates-from-sorted-list/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
 				<Option type="4"/>
@@ -792,6 +880,9 @@
 		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp">
 			<Option target="160-intersection-of-two-linked-lists"/>
 		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/19-remove-nth-node-from-end-of-list.cpp">
+			<Option target="19-remove-nth-node-from-end-of-list"/>
+		</Unit>
 		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/206-reverse-linked-list.cpp">
 			<Option target="206-reverse-linked-list"/>
 		</Unit>
@@ -803,6 +894,9 @@
 		</Unit>
 		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/24-swap-nodes-in-pairs.cpp">
 			<Option target="24-swap-nodes-in-pairs"/>
+		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/83-remove-duplicates-from-sorted-list.cpp">
+			<Option target="83-remove-duplicates-from-sorted-list"/>
 		</Unit>
 		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/Offer-03.cpp">
 			<Option target="Offer-03"/>

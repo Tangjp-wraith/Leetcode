@@ -31,7 +31,9 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18
 					]
 				}
 			],
@@ -62,7 +64,9 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18
 					]
 				}
 			],
@@ -80,6 +84,13 @@
 					"id" : "160-intersection-of-two-linked-lists::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-160-intersection-of-two-linked-lists-Debug-2f9ec6bd725f61d2d3a0.json",
 					"name" : "160-intersection-of-two-linked-lists",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "19-remove-nth-node-from-end-of-list::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-19-remove-nth-node-from-end-of-list-Debug-e191bb641c81961766be.json",
+					"name" : "19-remove-nth-node-from-end-of-list",
 					"projectIndex" : 0
 				},
 				{
@@ -108,6 +119,13 @@
 					"id" : "24-swap-nodes-in-pairs::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-24-swap-nodes-in-pairs-Debug-e66f058046042c771849.json",
 					"name" : "24-swap-nodes-in-pairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "83-remove-duplicates-from-sorted-list::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-83-remove-duplicates-from-sorted-list-Debug-c4dc09a0f58484a5ae44.json",
+					"name" : "83-remove-duplicates-from-sorted-list",
 					"projectIndex" : 0
 				},
 				{
