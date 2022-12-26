@@ -68,4 +68,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Offer-03.dir/DependInfo.cmake"
   "CMakeFiles/19-remove-nth-node-from-end-of-list.dir/DependInfo.cmake"
   "CMakeFiles/83-remove-duplicates-from-sorted-list.dir/DependInfo.cmake"
+  "CMakeFiles/Offer-11.dir/DependInfo.cmake"
+  "CMakeFiles/Offer-04.dir/DependInfo.cmake"
+  "CMakeFiles/Offer-50.dir/DependInfo.cmake"
   )

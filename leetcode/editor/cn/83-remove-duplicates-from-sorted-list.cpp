@@ -15,18 +15,18 @@ using namespace std;
  */
 class Solution {
 public:
-    ListNode* deleteDuplicates(ListNode* head) {
-        if(head== nullptr){
+    ListNode *deleteDuplicates(ListNode *head) {
+        if (head == nullptr) {
             return nullptr;
         }
-        ListNode* node=head;
-        int value=node->val;
-        while(node->next){
-            if(node->next->val==value){
-                node->next=node->next->next;
-            }else{
-                node=node->next;
-                value=node->val;
+        ListNode *node = head;
+        int value = node->val;
+        while (node->next) {
+            if (node->next->val == value) {
+                node->next = node->next->next;
+            } else {
+                node = node->next;
+                value = node->val;
             }
         }
         return head;
@@ -35,10 +35,9 @@ public:
 //leetcode submit region end(Prohibit modification and deletion)
 
 
-int main()
-{
+int main() {
     Solution s;
     vector<int> data{7, 1, 5, 3, 6, 4};
     auto res = "Hello LeetCode";
-    cout<<res<<endl;
+    cout << res << endl;
 }

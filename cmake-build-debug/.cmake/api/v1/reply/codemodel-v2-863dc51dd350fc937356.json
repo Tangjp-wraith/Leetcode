@@ -33,7 +33,10 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19,
+						20,
+						21
 					]
 				}
 			],
@@ -66,7 +69,10 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19,
+						20,
+						21
 					]
 				}
 			],
@@ -137,6 +143,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Offer-04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Offer-04-Debug-9cba58a4663c6f73b595.json",
+					"name" : "Offer-04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Offer-05::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Offer-05-Debug-917284f450b880f8d2a4.json",
 					"name" : "Offer-05",
@@ -158,6 +171,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Offer-11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Offer-11-Debug-4f4b206756289ac829a6.json",
+					"name" : "Offer-11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Offer-24::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Offer-24-Debug-a51e4d900ea6e9aafe5b.json",
 					"name" : "Offer-24",
@@ -175,6 +195,13 @@
 					"id" : "Offer-35::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Offer-35-Debug-208fbf19f6c3890873f1.json",
 					"name" : "Offer-35",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Offer-50::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Offer-50-Debug-ec46c7bf68cc513cd780.json",
+					"name" : "Offer-50",
 					"projectIndex" : 0
 				},
 				{
