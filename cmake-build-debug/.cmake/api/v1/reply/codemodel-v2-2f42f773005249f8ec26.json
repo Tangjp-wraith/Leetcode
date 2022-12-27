@@ -36,7 +36,10 @@
 						18,
 						19,
 						20,
-						21
+						21,
+						22,
+						23,
+						24
 					]
 				}
 			],
@@ -72,7 +75,10 @@
 						18,
 						19,
 						20,
-						21
+						21,
+						22,
+						23,
+						24
 					]
 				}
 			],
@@ -188,6 +194,27 @@
 					"id" : "Offer-30::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Offer-30-Debug-a1470d0c776d42b7771b.json",
 					"name" : "Offer-30",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Offer-32-I::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Offer-32-I-Debug-9ad82b072ccf110f1513.json",
+					"name" : "Offer-32-I",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Offer-32-II::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Offer-32-II-Debug-41386134473b5ca0ef79.json",
+					"name" : "Offer-32-II",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Offer-32-III::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Offer-32-III-Debug-2abec98fd2b6b4ce71b6.json",
+					"name" : "Offer-32-III",
 					"projectIndex" : 0
 				},
 				{

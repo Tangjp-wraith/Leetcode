@@ -31,3 +31,6 @@ add_executable(83-remove-duplicates-from-sorted-list leetcode/editor/cn/83-remov
 add_executable(Offer-11 leetcode/editor/cn/Offer-11.cpp)
 add_executable(Offer-04 leetcode/editor/cn/Offer-04.cpp)
 add_executable(Offer-50 leetcode/editor/cn/Offer-50.cpp)
+add_executable(Offer-32-I leetcode/editor/cn/Offer-32-I.cpp)
+add_executable(Offer-32-III leetcode/editor/cn/Offer-32-III.cpp)
+add_executable(Offer-32-II leetcode/editor/cn/Offer-32-II.cpp)

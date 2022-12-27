@@ -175,6 +175,36 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 32 - I-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 32 - I" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 32 - I-cong-shang-dao-xia-da-yin-er-cha-shu-lcof.cpp" />
+              <option name="titleSlug" value="cong-shang-dao-xia-da-yin-er-cha-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 32 - II-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 32 - II" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 32 - II-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cpp" />
+              <option name="titleSlug" value="cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 32 - III-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 32 - III" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 32 - III-cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.cpp" />
+              <option name="titleSlug" value="cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 35-fu-za-lian-biao-de-fu-zhi-lcof.cpp">
           <value>
             <LeetcodeEditor>
