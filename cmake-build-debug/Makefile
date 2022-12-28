@@ -441,6 +441,45 @@ Offer-32-II/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-32-II.dir/build.make CMakeFiles/Offer-32-II.dir/build
 .PHONY : Offer-32-II/fast
 
+#=============================================================================
+# Target rules for targets named Offer-26
+
+# Build rule for target.
+Offer-26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Offer-26
+.PHONY : Offer-26
+
+# fast build rule for target.
+Offer-26/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-26.dir/build.make CMakeFiles/Offer-26.dir/build
+.PHONY : Offer-26/fast
+
+#=============================================================================
+# Target rules for targets named Offer-27
+
+# Build rule for target.
+Offer-27: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Offer-27
+.PHONY : Offer-27
+
+# fast build rule for target.
+Offer-27/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-27.dir/build.make CMakeFiles/Offer-27.dir/build
+.PHONY : Offer-27/fast
+
+#=============================================================================
+# Target rules for targets named Offer-28
+
+# Build rule for target.
+Offer-28: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Offer-28
+.PHONY : Offer-28
+
+# fast build rule for target.
+Offer-28/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-28.dir/build.make CMakeFiles/Offer-28.dir/build
+.PHONY : Offer-28/fast
+
 leetcode/editor/cn/146-lru-cache.o: leetcode/editor/cn/146-lru-cache.cpp.o
 .PHONY : leetcode/editor/cn/146-lru-cache.o
 
@@ -801,6 +840,78 @@ leetcode/editor/cn/Offer-24.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-24.dir/build.make CMakeFiles/Offer-24.dir/leetcode/editor/cn/Offer-24.cpp.s
 .PHONY : leetcode/editor/cn/Offer-24.cpp.s
 
+leetcode/editor/cn/Offer-26.o: leetcode/editor/cn/Offer-26.cpp.o
+.PHONY : leetcode/editor/cn/Offer-26.o
+
+# target to build an object file
+leetcode/editor/cn/Offer-26.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-26.dir/build.make CMakeFiles/Offer-26.dir/leetcode/editor/cn/Offer-26.cpp.o
+.PHONY : leetcode/editor/cn/Offer-26.cpp.o
+
+leetcode/editor/cn/Offer-26.i: leetcode/editor/cn/Offer-26.cpp.i
+.PHONY : leetcode/editor/cn/Offer-26.i
+
+# target to preprocess a source file
+leetcode/editor/cn/Offer-26.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-26.dir/build.make CMakeFiles/Offer-26.dir/leetcode/editor/cn/Offer-26.cpp.i
+.PHONY : leetcode/editor/cn/Offer-26.cpp.i
+
+leetcode/editor/cn/Offer-26.s: leetcode/editor/cn/Offer-26.cpp.s
+.PHONY : leetcode/editor/cn/Offer-26.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/Offer-26.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-26.dir/build.make CMakeFiles/Offer-26.dir/leetcode/editor/cn/Offer-26.cpp.s
+.PHONY : leetcode/editor/cn/Offer-26.cpp.s
+
+leetcode/editor/cn/Offer-27.o: leetcode/editor/cn/Offer-27.cpp.o
+.PHONY : leetcode/editor/cn/Offer-27.o
+
+# target to build an object file
+leetcode/editor/cn/Offer-27.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-27.dir/build.make CMakeFiles/Offer-27.dir/leetcode/editor/cn/Offer-27.cpp.o
+.PHONY : leetcode/editor/cn/Offer-27.cpp.o
+
+leetcode/editor/cn/Offer-27.i: leetcode/editor/cn/Offer-27.cpp.i
+.PHONY : leetcode/editor/cn/Offer-27.i
+
+# target to preprocess a source file
+leetcode/editor/cn/Offer-27.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-27.dir/build.make CMakeFiles/Offer-27.dir/leetcode/editor/cn/Offer-27.cpp.i
+.PHONY : leetcode/editor/cn/Offer-27.cpp.i
+
+leetcode/editor/cn/Offer-27.s: leetcode/editor/cn/Offer-27.cpp.s
+.PHONY : leetcode/editor/cn/Offer-27.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/Offer-27.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-27.dir/build.make CMakeFiles/Offer-27.dir/leetcode/editor/cn/Offer-27.cpp.s
+.PHONY : leetcode/editor/cn/Offer-27.cpp.s
+
+leetcode/editor/cn/Offer-28.o: leetcode/editor/cn/Offer-28.cpp.o
+.PHONY : leetcode/editor/cn/Offer-28.o
+
+# target to build an object file
+leetcode/editor/cn/Offer-28.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-28.dir/build.make CMakeFiles/Offer-28.dir/leetcode/editor/cn/Offer-28.cpp.o
+.PHONY : leetcode/editor/cn/Offer-28.cpp.o
+
+leetcode/editor/cn/Offer-28.i: leetcode/editor/cn/Offer-28.cpp.i
+.PHONY : leetcode/editor/cn/Offer-28.i
+
+# target to preprocess a source file
+leetcode/editor/cn/Offer-28.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-28.dir/build.make CMakeFiles/Offer-28.dir/leetcode/editor/cn/Offer-28.cpp.i
+.PHONY : leetcode/editor/cn/Offer-28.cpp.i
+
+leetcode/editor/cn/Offer-28.s: leetcode/editor/cn/Offer-28.cpp.s
+.PHONY : leetcode/editor/cn/Offer-28.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/Offer-28.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-28.dir/build.make CMakeFiles/Offer-28.dir/leetcode/editor/cn/Offer-28.cpp.s
+.PHONY : leetcode/editor/cn/Offer-28.cpp.s
+
 leetcode/editor/cn/Offer-30.o: leetcode/editor/cn/Offer-30.cpp.o
 .PHONY : leetcode/editor/cn/Offer-30.o
 
@@ -1088,6 +1199,9 @@ help:
 	@echo "... Offer-09"
 	@echo "... Offer-11"
 	@echo "... Offer-24"
+	@echo "... Offer-26"
+	@echo "... Offer-27"
+	@echo "... Offer-28"
 	@echo "... Offer-30"
 	@echo "... Offer-32-I"
 	@echo "... Offer-32-II"
@@ -1143,6 +1257,15 @@ help:
 	@echo "... leetcode/editor/cn/Offer-24.o"
 	@echo "... leetcode/editor/cn/Offer-24.i"
 	@echo "... leetcode/editor/cn/Offer-24.s"
+	@echo "... leetcode/editor/cn/Offer-26.o"
+	@echo "... leetcode/editor/cn/Offer-26.i"
+	@echo "... leetcode/editor/cn/Offer-26.s"
+	@echo "... leetcode/editor/cn/Offer-27.o"
+	@echo "... leetcode/editor/cn/Offer-27.i"
+	@echo "... leetcode/editor/cn/Offer-27.s"
+	@echo "... leetcode/editor/cn/Offer-28.o"
+	@echo "... leetcode/editor/cn/Offer-28.i"
+	@echo "... leetcode/editor/cn/Offer-28.s"
 	@echo "... leetcode/editor/cn/Offer-30.o"
 	@echo "... leetcode/editor/cn/Offer-30.i"
 	@echo "... leetcode/editor/cn/Offer-30.s"

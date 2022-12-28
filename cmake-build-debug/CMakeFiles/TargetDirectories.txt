@@ -23,5 +23,8 @@
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-32-I.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-32-III.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-32-II.dir
+/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-26.dir
+/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-27.dir
+/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/Offer-28.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
