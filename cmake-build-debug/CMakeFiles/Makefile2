@@ -91,6 +91,11 @@ all: CMakeFiles/Offer-32-II.dir/all
 all: CMakeFiles/Offer-26.dir/all
 all: CMakeFiles/Offer-27.dir/all
 all: CMakeFiles/Offer-28.dir/all
+all: CMakeFiles/Offer-10-I.dir/all
+all: CMakeFiles/Offer-10-II.dir/all
+all: CMakeFiles/Offer-63.dir/all
+all: CMakeFiles/Offer-42.dir/all
+all: CMakeFiles/Offer-47.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -126,6 +131,11 @@ clean: CMakeFiles/Offer-32-II.dir/clean
 clean: CMakeFiles/Offer-26.dir/clean
 clean: CMakeFiles/Offer-27.dir/clean
 clean: CMakeFiles/Offer-28.dir/clean
+clean: CMakeFiles/Offer-10-I.dir/clean
+clean: CMakeFiles/Offer-10-II.dir/clean
+clean: CMakeFiles/Offer-63.dir/clean
+clean: CMakeFiles/Offer-42.dir/clean
+clean: CMakeFiles/Offer-47.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +145,7 @@ clean: CMakeFiles/Offer-28.dir/clean
 CMakeFiles/leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=55,56,57 "Built target leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=65,66,67 "Built target leetcode"
 .PHONY : CMakeFiles/leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -343,7 +353,7 @@ CMakeFiles/Offer-09.dir/clean:
 CMakeFiles/Offer-30.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-30.dir/build.make CMakeFiles/Offer-30.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-30.dir/build.make CMakeFiles/Offer-30.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target Offer-30"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target Offer-30"
 .PHONY : CMakeFiles/Offer-30.dir/all
 
 # Build rule for subdir invocation for target.
@@ -395,7 +405,7 @@ CMakeFiles/Offer-06.dir/clean:
 CMakeFiles/Offer-24.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-24.dir/build.make CMakeFiles/Offer-24.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-24.dir/build.make CMakeFiles/Offer-24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target Offer-24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target Offer-24"
 .PHONY : CMakeFiles/Offer-24.dir/all
 
 # Build rule for subdir invocation for target.
@@ -421,7 +431,7 @@ CMakeFiles/Offer-24.dir/clean:
 CMakeFiles/Offer-35.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-35.dir/build.make CMakeFiles/Offer-35.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-35.dir/build.make CMakeFiles/Offer-35.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target Offer-35"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target Offer-35"
 .PHONY : CMakeFiles/Offer-35.dir/all
 
 # Build rule for subdir invocation for target.
@@ -473,7 +483,7 @@ CMakeFiles/Offer-05.dir/clean:
 CMakeFiles/Offer-58-II.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-58-II.dir/build.make CMakeFiles/Offer-58-II.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-58-II.dir/build.make CMakeFiles/Offer-58-II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target Offer-58-II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target Offer-58-II"
 .PHONY : CMakeFiles/Offer-58-II.dir/all
 
 # Build rule for subdir invocation for target.
@@ -499,7 +509,7 @@ CMakeFiles/Offer-58-II.dir/clean:
 CMakeFiles/Offer-53-II.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-53-II.dir/build.make CMakeFiles/Offer-53-II.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-53-II.dir/build.make CMakeFiles/Offer-53-II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target Offer-53-II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target Offer-53-II"
 .PHONY : CMakeFiles/Offer-53-II.dir/all
 
 # Build rule for subdir invocation for target.
@@ -525,7 +535,7 @@ CMakeFiles/Offer-53-II.dir/clean:
 CMakeFiles/Offer-53-I.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-53-I.dir/build.make CMakeFiles/Offer-53-I.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-53-I.dir/build.make CMakeFiles/Offer-53-I.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target Offer-53-I"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target Offer-53-I"
 .PHONY : CMakeFiles/Offer-53-I.dir/all
 
 # Build rule for subdir invocation for target.
@@ -629,7 +639,7 @@ CMakeFiles/83-remove-duplicates-from-sorted-list.dir/clean:
 CMakeFiles/Offer-11.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-11.dir/build.make CMakeFiles/Offer-11.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-11.dir/build.make CMakeFiles/Offer-11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target Offer-11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target Offer-11"
 .PHONY : CMakeFiles/Offer-11.dir/all
 
 # Build rule for subdir invocation for target.
@@ -681,7 +691,7 @@ CMakeFiles/Offer-04.dir/clean:
 CMakeFiles/Offer-50.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-50.dir/build.make CMakeFiles/Offer-50.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-50.dir/build.make CMakeFiles/Offer-50.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target Offer-50"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target Offer-50"
 .PHONY : CMakeFiles/Offer-50.dir/all
 
 # Build rule for subdir invocation for target.
@@ -707,7 +717,7 @@ CMakeFiles/Offer-50.dir/clean:
 CMakeFiles/Offer-32-I.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-32-I.dir/build.make CMakeFiles/Offer-32-I.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-32-I.dir/build.make CMakeFiles/Offer-32-I.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target Offer-32-I"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target Offer-32-I"
 .PHONY : CMakeFiles/Offer-32-I.dir/all
 
 # Build rule for subdir invocation for target.
@@ -733,7 +743,7 @@ CMakeFiles/Offer-32-I.dir/clean:
 CMakeFiles/Offer-32-III.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-32-III.dir/build.make CMakeFiles/Offer-32-III.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-32-III.dir/build.make CMakeFiles/Offer-32-III.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target Offer-32-III"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target Offer-32-III"
 .PHONY : CMakeFiles/Offer-32-III.dir/all
 
 # Build rule for subdir invocation for target.
@@ -759,7 +769,7 @@ CMakeFiles/Offer-32-III.dir/clean:
 CMakeFiles/Offer-32-II.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-32-II.dir/build.make CMakeFiles/Offer-32-II.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-32-II.dir/build.make CMakeFiles/Offer-32-II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target Offer-32-II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target Offer-32-II"
 .PHONY : CMakeFiles/Offer-32-II.dir/all
 
 # Build rule for subdir invocation for target.
@@ -785,7 +795,7 @@ CMakeFiles/Offer-32-II.dir/clean:
 CMakeFiles/Offer-26.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-26.dir/build.make CMakeFiles/Offer-26.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-26.dir/build.make CMakeFiles/Offer-26.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target Offer-26"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target Offer-26"
 .PHONY : CMakeFiles/Offer-26.dir/all
 
 # Build rule for subdir invocation for target.
@@ -811,7 +821,7 @@ CMakeFiles/Offer-26.dir/clean:
 CMakeFiles/Offer-27.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-27.dir/build.make CMakeFiles/Offer-27.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-27.dir/build.make CMakeFiles/Offer-27.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target Offer-27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target Offer-27"
 .PHONY : CMakeFiles/Offer-27.dir/all
 
 # Build rule for subdir invocation for target.
@@ -837,7 +847,7 @@ CMakeFiles/Offer-27.dir/clean:
 CMakeFiles/Offer-28.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-28.dir/build.make CMakeFiles/Offer-28.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-28.dir/build.make CMakeFiles/Offer-28.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target Offer-28"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target Offer-28"
 .PHONY : CMakeFiles/Offer-28.dir/all
 
 # Build rule for subdir invocation for target.
@@ -855,6 +865,136 @@ Offer-28: CMakeFiles/Offer-28.dir/rule
 CMakeFiles/Offer-28.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-28.dir/build.make CMakeFiles/Offer-28.dir/clean
 .PHONY : CMakeFiles/Offer-28.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Offer-10-I.dir
+
+# All Build rule for target.
+CMakeFiles/Offer-10-I.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-10-I.dir/build.make CMakeFiles/Offer-10-I.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-10-I.dir/build.make CMakeFiles/Offer-10-I.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target Offer-10-I"
+.PHONY : CMakeFiles/Offer-10-I.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Offer-10-I.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Offer-10-I.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Offer-10-I.dir/rule
+
+# Convenience name for target.
+Offer-10-I: CMakeFiles/Offer-10-I.dir/rule
+.PHONY : Offer-10-I
+
+# clean rule for target.
+CMakeFiles/Offer-10-I.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-10-I.dir/build.make CMakeFiles/Offer-10-I.dir/clean
+.PHONY : CMakeFiles/Offer-10-I.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Offer-10-II.dir
+
+# All Build rule for target.
+CMakeFiles/Offer-10-II.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-10-II.dir/build.make CMakeFiles/Offer-10-II.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-10-II.dir/build.make CMakeFiles/Offer-10-II.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target Offer-10-II"
+.PHONY : CMakeFiles/Offer-10-II.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Offer-10-II.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Offer-10-II.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Offer-10-II.dir/rule
+
+# Convenience name for target.
+Offer-10-II: CMakeFiles/Offer-10-II.dir/rule
+.PHONY : Offer-10-II
+
+# clean rule for target.
+CMakeFiles/Offer-10-II.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-10-II.dir/build.make CMakeFiles/Offer-10-II.dir/clean
+.PHONY : CMakeFiles/Offer-10-II.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Offer-63.dir
+
+# All Build rule for target.
+CMakeFiles/Offer-63.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-63.dir/build.make CMakeFiles/Offer-63.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-63.dir/build.make CMakeFiles/Offer-63.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target Offer-63"
+.PHONY : CMakeFiles/Offer-63.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Offer-63.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Offer-63.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Offer-63.dir/rule
+
+# Convenience name for target.
+Offer-63: CMakeFiles/Offer-63.dir/rule
+.PHONY : Offer-63
+
+# clean rule for target.
+CMakeFiles/Offer-63.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-63.dir/build.make CMakeFiles/Offer-63.dir/clean
+.PHONY : CMakeFiles/Offer-63.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Offer-42.dir
+
+# All Build rule for target.
+CMakeFiles/Offer-42.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-42.dir/build.make CMakeFiles/Offer-42.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-42.dir/build.make CMakeFiles/Offer-42.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target Offer-42"
+.PHONY : CMakeFiles/Offer-42.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Offer-42.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Offer-42.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Offer-42.dir/rule
+
+# Convenience name for target.
+Offer-42: CMakeFiles/Offer-42.dir/rule
+.PHONY : Offer-42
+
+# clean rule for target.
+CMakeFiles/Offer-42.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-42.dir/build.make CMakeFiles/Offer-42.dir/clean
+.PHONY : CMakeFiles/Offer-42.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Offer-47.dir
+
+# All Build rule for target.
+CMakeFiles/Offer-47.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-47.dir/build.make CMakeFiles/Offer-47.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-47.dir/build.make CMakeFiles/Offer-47.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target Offer-47"
+.PHONY : CMakeFiles/Offer-47.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Offer-47.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Offer-47.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/CSProjects/Leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Offer-47.dir/rule
+
+# Convenience name for target.
+Offer-47: CMakeFiles/Offer-47.dir/rule
+.PHONY : Offer-47
+
+# clean rule for target.
+CMakeFiles/Offer-47.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-47.dir/build.make CMakeFiles/Offer-47.dir/clean
+.PHONY : CMakeFiles/Offer-47.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
