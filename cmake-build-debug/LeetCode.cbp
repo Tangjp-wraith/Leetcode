@@ -1469,6 +1469,94 @@
 					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Offer-46">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/Offer-46" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Offer-46"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Offer-46/fast">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/Offer-46" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Offer-46/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Offer-48">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/Offer-48" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Offer-48"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Offer-48/fast">
+				<Option output="/home/tang/CSProjects/Leetcode/cmake-build-debug/Offer-48" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Offer-48/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/tang/CSProjects/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/tang/CSProjects/Leetcode/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1568,8 +1656,14 @@
 		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/Offer-42.cpp">
 			<Option target="Offer-42"/>
 		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/Offer-46.cpp">
+			<Option target="Offer-46"/>
+		</Unit>
 		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/Offer-47.cpp">
 			<Option target="Offer-47"/>
+		</Unit>
+		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/Offer-48.cpp">
+			<Option target="Offer-48"/>
 		</Unit>
 		<Unit filename="/home/tang/CSProjects/Leetcode/leetcode/editor/cn/Offer-50.cpp">
 			<Option target="Offer-50"/>

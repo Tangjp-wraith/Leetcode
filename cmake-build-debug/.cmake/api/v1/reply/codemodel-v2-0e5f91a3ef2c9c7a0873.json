@@ -47,7 +47,9 @@
 						29,
 						30,
 						31,
-						32
+						32,
+						33,
+						34
 					]
 				}
 			],
@@ -94,7 +96,9 @@
 						29,
 						30,
 						31,
-						32
+						32,
+						33,
+						34
 					]
 				}
 			],
@@ -284,9 +288,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Offer-46::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Offer-46-Debug-258f50fed3f95552fac6.json",
+					"name" : "Offer-46",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Offer-47::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Offer-47-Debug-62d0ab83ad6a2fc0ffd9.json",
 					"name" : "Offer-47",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Offer-48::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Offer-48-Debug-e71b884edf9aa4531aaf.json",
+					"name" : "Offer-48",
 					"projectIndex" : 0
 				},
 				{
