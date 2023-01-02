@@ -86,4 +86,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Offer-48.dir/DependInfo.cmake"
   "CMakeFiles/Offer-18.dir/DependInfo.cmake"
   "CMakeFiles/Offer-22.dir/DependInfo.cmake"
+  "CMakeFiles/Offer-25.dir/DependInfo.cmake"
+  "CMakeFiles/Offer-52.dir/DependInfo.cmake"
   )
