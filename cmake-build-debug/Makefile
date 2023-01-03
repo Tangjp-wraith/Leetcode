@@ -623,6 +623,45 @@ Offer-52/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-52.dir/build.make CMakeFiles/Offer-52.dir/build
 .PHONY : Offer-52/fast
 
+#=============================================================================
+# Target rules for targets named Offer-21
+
+# Build rule for target.
+Offer-21: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Offer-21
+.PHONY : Offer-21
+
+# fast build rule for target.
+Offer-21/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-21.dir/build.make CMakeFiles/Offer-21.dir/build
+.PHONY : Offer-21/fast
+
+#=============================================================================
+# Target rules for targets named Offer-57
+
+# Build rule for target.
+Offer-57: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Offer-57
+.PHONY : Offer-57
+
+# fast build rule for target.
+Offer-57/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-57.dir/build.make CMakeFiles/Offer-57.dir/build
+.PHONY : Offer-57/fast
+
+#=============================================================================
+# Target rules for targets named Offer-58-I
+
+# Build rule for target.
+Offer-58-I: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Offer-58-I
+.PHONY : Offer-58-I
+
+# fast build rule for target.
+Offer-58-I/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-58-I.dir/build.make CMakeFiles/Offer-58-I.dir/build
+.PHONY : Offer-58-I/fast
+
 leetcode/editor/cn/146-lru-cache.o: leetcode/editor/cn/146-lru-cache.cpp.o
 .PHONY : leetcode/editor/cn/146-lru-cache.o
 
@@ -1030,6 +1069,30 @@ leetcode/editor/cn/Offer-18.s: leetcode/editor/cn/Offer-18.cpp.s
 leetcode/editor/cn/Offer-18.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-18.dir/build.make CMakeFiles/Offer-18.dir/leetcode/editor/cn/Offer-18.cpp.s
 .PHONY : leetcode/editor/cn/Offer-18.cpp.s
+
+leetcode/editor/cn/Offer-21.o: leetcode/editor/cn/Offer-21.cpp.o
+.PHONY : leetcode/editor/cn/Offer-21.o
+
+# target to build an object file
+leetcode/editor/cn/Offer-21.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-21.dir/build.make CMakeFiles/Offer-21.dir/leetcode/editor/cn/Offer-21.cpp.o
+.PHONY : leetcode/editor/cn/Offer-21.cpp.o
+
+leetcode/editor/cn/Offer-21.i: leetcode/editor/cn/Offer-21.cpp.i
+.PHONY : leetcode/editor/cn/Offer-21.i
+
+# target to preprocess a source file
+leetcode/editor/cn/Offer-21.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-21.dir/build.make CMakeFiles/Offer-21.dir/leetcode/editor/cn/Offer-21.cpp.i
+.PHONY : leetcode/editor/cn/Offer-21.cpp.i
+
+leetcode/editor/cn/Offer-21.s: leetcode/editor/cn/Offer-21.cpp.s
+.PHONY : leetcode/editor/cn/Offer-21.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/Offer-21.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-21.dir/build.make CMakeFiles/Offer-21.dir/leetcode/editor/cn/Offer-21.cpp.s
+.PHONY : leetcode/editor/cn/Offer-21.cpp.s
 
 leetcode/editor/cn/Offer-22.o: leetcode/editor/cn/Offer-22.cpp.o
 .PHONY : leetcode/editor/cn/Offer-22.o
@@ -1487,6 +1550,54 @@ leetcode/editor/cn/Offer-53-II.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-53-II.dir/build.make CMakeFiles/Offer-53-II.dir/leetcode/editor/cn/Offer-53-II.cpp.s
 .PHONY : leetcode/editor/cn/Offer-53-II.cpp.s
 
+leetcode/editor/cn/Offer-57.o: leetcode/editor/cn/Offer-57.cpp.o
+.PHONY : leetcode/editor/cn/Offer-57.o
+
+# target to build an object file
+leetcode/editor/cn/Offer-57.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-57.dir/build.make CMakeFiles/Offer-57.dir/leetcode/editor/cn/Offer-57.cpp.o
+.PHONY : leetcode/editor/cn/Offer-57.cpp.o
+
+leetcode/editor/cn/Offer-57.i: leetcode/editor/cn/Offer-57.cpp.i
+.PHONY : leetcode/editor/cn/Offer-57.i
+
+# target to preprocess a source file
+leetcode/editor/cn/Offer-57.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-57.dir/build.make CMakeFiles/Offer-57.dir/leetcode/editor/cn/Offer-57.cpp.i
+.PHONY : leetcode/editor/cn/Offer-57.cpp.i
+
+leetcode/editor/cn/Offer-57.s: leetcode/editor/cn/Offer-57.cpp.s
+.PHONY : leetcode/editor/cn/Offer-57.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/Offer-57.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-57.dir/build.make CMakeFiles/Offer-57.dir/leetcode/editor/cn/Offer-57.cpp.s
+.PHONY : leetcode/editor/cn/Offer-57.cpp.s
+
+leetcode/editor/cn/Offer-58-I.o: leetcode/editor/cn/Offer-58-I.cpp.o
+.PHONY : leetcode/editor/cn/Offer-58-I.o
+
+# target to build an object file
+leetcode/editor/cn/Offer-58-I.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-58-I.dir/build.make CMakeFiles/Offer-58-I.dir/leetcode/editor/cn/Offer-58-I.cpp.o
+.PHONY : leetcode/editor/cn/Offer-58-I.cpp.o
+
+leetcode/editor/cn/Offer-58-I.i: leetcode/editor/cn/Offer-58-I.cpp.i
+.PHONY : leetcode/editor/cn/Offer-58-I.i
+
+# target to preprocess a source file
+leetcode/editor/cn/Offer-58-I.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-58-I.dir/build.make CMakeFiles/Offer-58-I.dir/leetcode/editor/cn/Offer-58-I.cpp.i
+.PHONY : leetcode/editor/cn/Offer-58-I.cpp.i
+
+leetcode/editor/cn/Offer-58-I.s: leetcode/editor/cn/Offer-58-I.cpp.s
+.PHONY : leetcode/editor/cn/Offer-58-I.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/Offer-58-I.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-58-I.dir/build.make CMakeFiles/Offer-58-I.dir/leetcode/editor/cn/Offer-58-I.cpp.s
+.PHONY : leetcode/editor/cn/Offer-58-I.cpp.s
+
 leetcode/editor/cn/Offer-58-II.o: leetcode/editor/cn/Offer-58-II.cpp.o
 .PHONY : leetcode/editor/cn/Offer-58-II.o
 
@@ -1608,6 +1719,7 @@ help:
 	@echo "... Offer-10-II"
 	@echo "... Offer-11"
 	@echo "... Offer-18"
+	@echo "... Offer-21"
 	@echo "... Offer-22"
 	@echo "... Offer-24"
 	@echo "... Offer-25"
@@ -1627,6 +1739,8 @@ help:
 	@echo "... Offer-52"
 	@echo "... Offer-53-I"
 	@echo "... Offer-53-II"
+	@echo "... Offer-57"
+	@echo "... Offer-58-I"
 	@echo "... Offer-58-II"
 	@echo "... Offer-63"
 	@echo "... leetcode"
@@ -1681,6 +1795,9 @@ help:
 	@echo "... leetcode/editor/cn/Offer-18.o"
 	@echo "... leetcode/editor/cn/Offer-18.i"
 	@echo "... leetcode/editor/cn/Offer-18.s"
+	@echo "... leetcode/editor/cn/Offer-21.o"
+	@echo "... leetcode/editor/cn/Offer-21.i"
+	@echo "... leetcode/editor/cn/Offer-21.s"
 	@echo "... leetcode/editor/cn/Offer-22.o"
 	@echo "... leetcode/editor/cn/Offer-22.i"
 	@echo "... leetcode/editor/cn/Offer-22.s"
@@ -1738,6 +1855,12 @@ help:
 	@echo "... leetcode/editor/cn/Offer-53-II.o"
 	@echo "... leetcode/editor/cn/Offer-53-II.i"
 	@echo "... leetcode/editor/cn/Offer-53-II.s"
+	@echo "... leetcode/editor/cn/Offer-57.o"
+	@echo "... leetcode/editor/cn/Offer-57.i"
+	@echo "... leetcode/editor/cn/Offer-57.s"
+	@echo "... leetcode/editor/cn/Offer-58-I.o"
+	@echo "... leetcode/editor/cn/Offer-58-I.i"
+	@echo "... leetcode/editor/cn/Offer-58-I.s"
 	@echo "... leetcode/editor/cn/Offer-58-II.o"
 	@echo "... leetcode/editor/cn/Offer-58-II.i"
 	@echo "... leetcode/editor/cn/Offer-58-II.s"
