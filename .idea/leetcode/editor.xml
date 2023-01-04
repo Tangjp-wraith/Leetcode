@@ -175,6 +175,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 12-ju-zhen-zhong-de-lu-jing-lcof.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 12" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 12-ju-zhen-zhong-de-lu-jing-lcof.cpp" />
+              <option name="titleSlug" value="ju-zhen-zhong-de-lu-jing-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 18-shan-chu-lian-biao-de-jie-dian-lcof.cpp">
           <value>
             <LeetcodeEditor>
@@ -422,6 +432,16 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 63-gu-piao-de-zui-da-li-run-lcof.cpp" />
               <option name="titleSlug" value="gu-piao-de-zui-da-li-run-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题13-ji-qi-ren-de-yun-dong-fan-wei-lcof.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.cn面试题13" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题13-ji-qi-ren-de-yun-dong-fan-wei-lcof.cpp" />
+              <option name="titleSlug" value="ji-qi-ren-de-yun-dong-fan-wei-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>

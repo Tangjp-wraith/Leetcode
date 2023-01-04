@@ -662,6 +662,32 @@ Offer-58-I/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-58-I.dir/build.make CMakeFiles/Offer-58-I.dir/build
 .PHONY : Offer-58-I/fast
 
+#=============================================================================
+# Target rules for targets named Offer-12
+
+# Build rule for target.
+Offer-12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Offer-12
+.PHONY : Offer-12
+
+# fast build rule for target.
+Offer-12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-12.dir/build.make CMakeFiles/Offer-12.dir/build
+.PHONY : Offer-12/fast
+
+#=============================================================================
+# Target rules for targets named Offer-13
+
+# Build rule for target.
+Offer-13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Offer-13
+.PHONY : Offer-13
+
+# fast build rule for target.
+Offer-13/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-13.dir/build.make CMakeFiles/Offer-13.dir/build
+.PHONY : Offer-13/fast
+
 leetcode/editor/cn/146-lru-cache.o: leetcode/editor/cn/146-lru-cache.cpp.o
 .PHONY : leetcode/editor/cn/146-lru-cache.o
 
@@ -1045,6 +1071,54 @@ leetcode/editor/cn/Offer-11.s: leetcode/editor/cn/Offer-11.cpp.s
 leetcode/editor/cn/Offer-11.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-11.dir/build.make CMakeFiles/Offer-11.dir/leetcode/editor/cn/Offer-11.cpp.s
 .PHONY : leetcode/editor/cn/Offer-11.cpp.s
+
+leetcode/editor/cn/Offer-12.o: leetcode/editor/cn/Offer-12.cpp.o
+.PHONY : leetcode/editor/cn/Offer-12.o
+
+# target to build an object file
+leetcode/editor/cn/Offer-12.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-12.dir/build.make CMakeFiles/Offer-12.dir/leetcode/editor/cn/Offer-12.cpp.o
+.PHONY : leetcode/editor/cn/Offer-12.cpp.o
+
+leetcode/editor/cn/Offer-12.i: leetcode/editor/cn/Offer-12.cpp.i
+.PHONY : leetcode/editor/cn/Offer-12.i
+
+# target to preprocess a source file
+leetcode/editor/cn/Offer-12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-12.dir/build.make CMakeFiles/Offer-12.dir/leetcode/editor/cn/Offer-12.cpp.i
+.PHONY : leetcode/editor/cn/Offer-12.cpp.i
+
+leetcode/editor/cn/Offer-12.s: leetcode/editor/cn/Offer-12.cpp.s
+.PHONY : leetcode/editor/cn/Offer-12.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/Offer-12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-12.dir/build.make CMakeFiles/Offer-12.dir/leetcode/editor/cn/Offer-12.cpp.s
+.PHONY : leetcode/editor/cn/Offer-12.cpp.s
+
+leetcode/editor/cn/Offer-13.o: leetcode/editor/cn/Offer-13.cpp.o
+.PHONY : leetcode/editor/cn/Offer-13.o
+
+# target to build an object file
+leetcode/editor/cn/Offer-13.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-13.dir/build.make CMakeFiles/Offer-13.dir/leetcode/editor/cn/Offer-13.cpp.o
+.PHONY : leetcode/editor/cn/Offer-13.cpp.o
+
+leetcode/editor/cn/Offer-13.i: leetcode/editor/cn/Offer-13.cpp.i
+.PHONY : leetcode/editor/cn/Offer-13.i
+
+# target to preprocess a source file
+leetcode/editor/cn/Offer-13.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-13.dir/build.make CMakeFiles/Offer-13.dir/leetcode/editor/cn/Offer-13.cpp.i
+.PHONY : leetcode/editor/cn/Offer-13.cpp.i
+
+leetcode/editor/cn/Offer-13.s: leetcode/editor/cn/Offer-13.cpp.s
+.PHONY : leetcode/editor/cn/Offer-13.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/Offer-13.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Offer-13.dir/build.make CMakeFiles/Offer-13.dir/leetcode/editor/cn/Offer-13.cpp.s
+.PHONY : leetcode/editor/cn/Offer-13.cpp.s
 
 leetcode/editor/cn/Offer-18.o: leetcode/editor/cn/Offer-18.cpp.o
 .PHONY : leetcode/editor/cn/Offer-18.o
@@ -1718,6 +1792,8 @@ help:
 	@echo "... Offer-10-I"
 	@echo "... Offer-10-II"
 	@echo "... Offer-11"
+	@echo "... Offer-12"
+	@echo "... Offer-13"
 	@echo "... Offer-18"
 	@echo "... Offer-21"
 	@echo "... Offer-22"
@@ -1792,6 +1868,12 @@ help:
 	@echo "... leetcode/editor/cn/Offer-11.o"
 	@echo "... leetcode/editor/cn/Offer-11.i"
 	@echo "... leetcode/editor/cn/Offer-11.s"
+	@echo "... leetcode/editor/cn/Offer-12.o"
+	@echo "... leetcode/editor/cn/Offer-12.i"
+	@echo "... leetcode/editor/cn/Offer-12.s"
+	@echo "... leetcode/editor/cn/Offer-13.o"
+	@echo "... leetcode/editor/cn/Offer-13.i"
+	@echo "... leetcode/editor/cn/Offer-13.s"
 	@echo "... leetcode/editor/cn/Offer-18.o"
 	@echo "... leetcode/editor/cn/Offer-18.i"
 	@echo "... leetcode/editor/cn/Offer-18.s"

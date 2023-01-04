@@ -1,0 +1,1 @@
+/usr/bin/clang++-12 -g CMakeFiles/Offer-13.dir/leetcode/editor/cn/Offer-13.cpp.o -o Offer-13  libleetcode.a 
