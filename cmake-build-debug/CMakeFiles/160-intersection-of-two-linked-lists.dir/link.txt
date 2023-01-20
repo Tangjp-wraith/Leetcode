@@ -1,1 +1,0 @@
-/usr/bin/clang++-12 -g CMakeFiles/160-intersection-of-two-linked-lists.dir/leetcode/editor/cn/160-intersection-of-two-linked-lists.cpp.o -o 160-intersection-of-two-linked-lists  libleetcode.a 

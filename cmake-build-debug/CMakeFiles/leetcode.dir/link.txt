@@ -1,2 +1,0 @@
-/usr/bin/llvm-ar-12 qc libleetcode.a CMakeFiles/leetcode.dir/leetcode/editor/cn/include/btree.cc.o CMakeFiles/leetcode.dir/leetcode/editor/cn/include/listnode.cc.o
-/usr/bin/llvm-ranlib-12 libleetcode.a

@@ -1,1 +1,0 @@
-/usr/bin/clang++-12 -g CMakeFiles/24-swap-nodes-in-pairs.dir/leetcode/editor/cn/24-swap-nodes-in-pairs.cpp.o -o 24-swap-nodes-in-pairs  libleetcode.a 
