@@ -93,12 +93,3 @@ public:
  * obj->put(key,value);
  */
 //leetcode submit region end(Prohibit modification and deletion)
-
-
-int main()
-{
-    Solution s;
-    vector<int> data{7, 1, 5, 3, 6, 4};
-    auto res = "Hello LeetCode";
-    cout<<res<<endl;
-}
